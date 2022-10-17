@@ -3,6 +3,7 @@ body {
   background-color: hsl(212, 45%, 89%);
   text-align: center;
 }
+
 .container {
   background-color: #fff;
   width: 280px;
@@ -10,22 +11,29 @@ body {
   border-radius: .8rem;
   margin: auto;
   margin-top: 200px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
+
 .container img {
   max-width: 100%;
   border-radius: .8rem;
 }
+
 .container h2 {
-  color:hsl(218, 44%, 22%);
+  color: hsl(218, 44%, 22%);
   font-weight: bold;
   line-height: 1.5;
   font-size: 1.3rem;
-  padding: 1rem;
+  padding: 0 1rem 0;
 }
-.container p{
+
+.container p {
+  margin: .5rem;
   font-size: 15px;
-  color:hsl(220, 15%, 55%);
+  font-weight:400;
+  color: hsl(220, 15%, 55%);
 }
+
 .attribution {
   margin-top: 50px;
   font-size: 11px;
